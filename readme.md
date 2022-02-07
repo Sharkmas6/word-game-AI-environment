@@ -6,6 +6,8 @@ Develop your algorithm solving Wordle using this simple test environment.
 
 - [Python 3.6+](https://www.python.org/downloads/)
 
+The colored tiles used as feedback might not be supported by your terminal. If you use Windows please use a windows terminal instead of CMD or PowerShell.
+
 ## How to start:
 
 - Clone the repository:

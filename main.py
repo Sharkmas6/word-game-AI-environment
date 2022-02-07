@@ -25,7 +25,7 @@ if __name__ == "__main__":
 
     # By default, run the game to play in terminal
     if not args.test:
-        hs = HumanSolver.HumanSolver(args.length, args.guesses)
+        hs = HumanSolver.HumanSolver(args.length, args.guesses, args.print)
         hs.gameLoop()
         exit(0)
     tester = Tester.Tester(args.length, args.cases, args.guesses)

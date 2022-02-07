@@ -2,9 +2,10 @@ from Game import Game
 
 
 class HumanSolver:
-    def __init__(self, word_length=6, guess_limit=6):
+    def __init__(self, word_length=6, guess_limit=6, mode=2):
         self.__word_length = word_length
         self.__guess_limit = guess_limit
+        self.__mode = mode
         self.game = Game.Game(word_length, guess_limit)
 
     def gameLoop(self):
@@ -21,7 +22,10 @@ class HumanSolver:
                 print('Invalid input! Try again.')
                 continue
 
-            self.game.color_print_guesses()
+            if self.__mode == 1:
+                self.game.draw_board()
+            else:
+                self.game.color_print_guesses()
 
             if result == [1]*self.__word_length:
                 print('You won!')
