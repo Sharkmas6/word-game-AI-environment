@@ -3,7 +3,7 @@ from Game import GuessHandler
 
 
 class Game:
-    def __init__(self, word_length=6, guess_limit=6):
+    def __init__(self, word_length, guess_limit):
         self.__word_length = word_length
         self.__guess_limit = guess_limit
         self.__wordGenerator = WordGenerator.WordGenerator(word_length)

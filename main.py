@@ -12,7 +12,7 @@ if __name__ == "__main__":
 
     parser = argparse.ArgumentParser(description='Run the word game')
     parser.add_argument('-l', '--length', type=int,
-                        help='Word length', default=6)
+                        help='Word length', default=5)
     parser.add_argument('-g', '--guesses', type=int,
                         help='Guesses limit', default=6)
     parser.add_argument('-t', '--test', action='store_true',

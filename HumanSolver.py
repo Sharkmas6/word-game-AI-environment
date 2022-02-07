@@ -5,7 +5,7 @@ class HumanSolver:
     def __init__(self, word_length=6, guess_limit=6):
         self.__word_length = word_length
         self.__guess_limit = guess_limit
-        self.game = Game.Game()
+        self.game = Game.Game(word_length, guess_limit)
 
     def gameLoop(self):
         self.game.restart_game()
