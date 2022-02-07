@@ -69,7 +69,7 @@ Parameters:
 - `past_results`: A list of past results\*.
 - `left`: The number of guesses left.
 
-* See how to interpret the results in [Results interpretation](#results-interpretation).
+\* See how to interpret the results in [Results interpretation](#results-interpretation).
 
 ## Results interpretation:
 
