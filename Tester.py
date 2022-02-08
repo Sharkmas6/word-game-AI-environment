@@ -71,6 +71,8 @@ class Tester:
                 (self.test_count - self.fails)
             print(
                 f'Average guesses: {average_guesses}')
+            if self.fails <= 0:
+                self.fails = 1
             score = int(((self.guess_limit-average_guesses)**2) /
                         (exec_time*self.fails)*self.test_count**2)
             print(f'Score: {score}')
