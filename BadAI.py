@@ -1,6 +1,6 @@
+import csv
 from typing import List
 
-import csv
 
 # This is a VERY BAD AI that will always guess the first few words from the list
 # It uses a list of words from the CSV file words-#.csv (where # is the word length)

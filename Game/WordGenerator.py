@@ -1,5 +1,5 @@
-import random
 import csv
+import random
 
 
 class WordGenerator:

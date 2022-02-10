@@ -1,9 +1,8 @@
-import sys
 import argparse
 
-import Tester
-import HumanSolver
 import BadAI
+import HumanSolver
+import Tester
 
 # Edit only the following line to change the AI Class to test
 SOLVER = BadAI.BadAI
@@ -20,7 +19,8 @@ if __name__ == "__main__":
     parser.add_argument('-c', '--cases', type=int,
                         help='Number of test cases', default=100)
     parser.add_argument('-p', '--print', type=int,
-                        help='Print mode (0: no print, 1: print results boxes, 2: print guesses, 3: print game results)', default=0)
+                        help='Print mode (0: no print, 1: print results boxes, 2: print guesses, 3: print game results)',
+                        default=0)
     args = parser.parse_args()
 
     # By default, run the game to play in terminal
