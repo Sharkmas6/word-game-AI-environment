@@ -1,5 +1,4 @@
-from Game import WordGenerator
-from Game import GuessHandler
+from Game import GuessHandler, WordGenerator
 
 
 class Game:

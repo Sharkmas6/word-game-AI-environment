@@ -27,7 +27,7 @@ class HumanSolver:
             else:
                 self.game.color_print_guesses()
 
-            if result == [1]*self.__word_length:
+            if result == [1] * self.__word_length:
                 print('You won!')
                 end_game = True
                 continue
